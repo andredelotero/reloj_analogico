@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script type="text/javascript" src="./reloj.js"></script>
-    <title>Andre Gama del Otero - Reloj analogico</title>
+    <link rel="stylesheet" href="./version_nueva.css">
+    <script type="text/javascript" src="./version_nueva.js"></script>
+    <title>Reloj Analogico 2.0</title>
 </head>
-  <body onload="reloj()"> 
-    <div class="reloj" >
-      <svg viewBox="0 0 340 150">
-        <path id="curve" fill=none  d="M 20 100 Q 150 6 285 112" />
+<body onload="mover()">
+   <div class="reloj">
+    <svg viewBox="0 0 340 150">
+        <path id="curve" fill=none  d="M 20 100 Q 145 14 285 114" />
          <text>
     <textPath href="#curve" >
       FOR ALL TIME. ALWAYS
     </textPath>
   </text>
               </svg>
-        <div class="central"></div>
-        <div class="segundos"></div>
-        <div class="minutos"></div>
-        <div class="horas"></div>
-        <div class="linea linea1 "></div>
-        <div class="linea linea3 "></div>
-        <div class="linea linea5 "></div>
-        <div class="linea linea7"></div>
-        <div class="linea linea9"></div>    
-        <div class="linea linea11"></div>
-        <div class="ojo_izquierdo">
-          <div class="pupila_izquierda"></div>
-        </div>
-        <div class="ojo_derecho">
-          <div class="pupila_derecha"></div>
-        </div>
-        <div class="boca"></div>
-        <div class="cachete"></div>
-        </div>
-    </div>
-  </body>
+    <div class="linea_principal"></div>
+    <div class="linea_principal horizontal"></div>
+    <div class="linea_secundaria treinta"></div>
+    <div class="linea_secundaria sesenta"></div>
+    <div class="linea_secundaria cientoveinte"></div>
+    <div class="linea_secundaria cientocincuenta"></div>
+    <div class="punto_central"></div>
+    <div class="segundos"></div>
+    <div class="minutos"></div>
+    <div class="horas"></div>
+    <div class="ojo_izquierdo">
+        <div class="pupila_izquierda"></div>
+      </div>
+      <div class="ojo_derecho">
+        <div class="pupila_derecha"></div>
+      </div>
+      <div class="boca"></div>
+      <div class="cachete"></div>
+   </div> 
+</body>
 </html>
