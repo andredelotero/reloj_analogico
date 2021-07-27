@@ -252,7 +252,7 @@ body {
   -moz-transform: rotate(8deg);
   -webkit-transform: rotate(8deg);
   transform: rotate(8deg);
-  background-color: #ee6300;
+  background-color: #e26300;
   z-index: 2;
 }
 
@@ -269,7 +269,7 @@ body {
   -moz-transform: rotate(8deg);
   -webkit-transform: rotate(8deg);
   transform: rotate(8deg);
-  background: #ee6300;
+  background: #e26300;
   border-bottom: 4px solid black;
   z-index: 2;
 }
