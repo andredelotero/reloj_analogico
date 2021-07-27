@@ -9,5 +9,6 @@ function mover(){
     segundos.style.transform="rotate("+s*6+"deg)";
     minutos.style.transform="rotate("+m*6+"deg)";
     horas.style.transform="rotate("+((h*30)+((m*12)/30))+"deg)";
-    setInterval(function(){mover();}, 1000);
+    
 }
+setInterval(mover, 1000);
